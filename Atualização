@@ -1,0 +1,6 @@
+for strategy in strategies:
+
+    signal = strategy.analyze(asset, candles)
+
+    if signal:
+        print(signal)
